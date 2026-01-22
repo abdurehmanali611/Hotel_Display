@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import {
@@ -21,7 +22,7 @@ function MarqueeContent() {
     <>
       <div className="flex items-start">
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
-          {FirstGallery.map((item) => (
+          {FirstGallery.map((item: any) => (
             <Card
               key={item.id}
               className="flex flex-col gap-3 items-center p-3"
@@ -50,7 +51,7 @@ function MarqueeContent() {
           ))}
         </div>
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
-          {SecondGallery.map((item) => (
+          {SecondGallery.map((item: any) => (
             <Card
               key={item.id}
               className="flex flex-col gap-3 items-center p-3"
@@ -79,7 +80,7 @@ function MarqueeContent() {
           ))}
         </div>
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
-          {ThirdGallery.map((item) => (
+          {ThirdGallery.map((item: any) => (
             <Card
               key={item.id}
               className="flex flex-col gap-3 items-center p-3"
@@ -110,7 +111,7 @@ function MarqueeContent() {
       </div>
       <div className="flex items-start">
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
-          {FourthGallery.map((item) => (
+          {FourthGallery.map((item: any) => (
             <Card
               key={item.id}
               className="flex flex-col gap-3 items-center p-3"
@@ -139,7 +140,7 @@ function MarqueeContent() {
           ))}
         </div>
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
-          {FifthGallery.map((item) => (
+          {FifthGallery.map((item: any) => (
             <Card
               key={item.id}
               className="flex flex-col gap-3 items-center p-3"
@@ -168,7 +169,7 @@ function MarqueeContent() {
           ))}
         </div>
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
-          {SixthGallery.map((item) => (
+          {SixthGallery.map((item: any) => (
             <Card
               key={item.id}
               className="flex flex-col gap-3 items-center p-3"

@@ -211,7 +211,7 @@ function HotelBrandingOverlay({ duration = 10 }: { duration?: number }) {
           <Avatar className="w-full h-full rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center border-2 border-white/30">
             <Image
               src="/assets/logo.jpg"
-              alt="Logo"
+              alt="B.I.H"
               fill
               loading="eager"
               className="object-cover rounded-xl"

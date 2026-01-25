@@ -24,7 +24,7 @@ function MarqueeContent() {
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
           {FirstGallery.map((item: any) => (
             <Card
-              key={item.id}
+              key={item.id ?? item._id}
               className="flex flex-col gap-3 items-center p-3"
             >
               <CardHeader className="self-start w-full">
@@ -53,7 +53,7 @@ function MarqueeContent() {
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
           {SecondGallery.map((item: any) => (
             <Card
-              key={item.id}
+              key={item.id ?? item._id}
               className="flex flex-col gap-3 items-center p-3"
             >
               <CardHeader className="self-start w-full">
@@ -82,7 +82,7 @@ function MarqueeContent() {
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
           {ThirdGallery.map((item: any) => (
             <Card
-              key={item.id}
+              key={item.id ?? item._id}
               className="flex flex-col gap-3 items-center p-3"
             >
               <CardHeader className="self-start w-full">
@@ -113,7 +113,7 @@ function MarqueeContent() {
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
           {FourthGallery.map((item: any) => (
             <Card
-              key={item.id}
+              key={item.id ?? item._id}
               className="flex flex-col gap-3 items-center p-3"
             >
               <CardHeader className="self-start w-full">
@@ -142,7 +142,7 @@ function MarqueeContent() {
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
           {FifthGallery.map((item: any) => (
             <Card
-              key={item.id}
+              key={item.id ?? item._id}
               className="flex flex-col gap-3 items-center p-3"
             >
               <CardHeader className="self-start w-full">
@@ -171,7 +171,7 @@ function MarqueeContent() {
         <div className="grid grid-cols-3 items-start gap-16 p-5 w-screen">
           {SixthGallery.map((item: any) => (
             <Card
-              key={item.id}
+              key={item.id ?? item._id}
               className="flex flex-col gap-3 items-center p-3"
             >
               <CardHeader className="self-start w-full">

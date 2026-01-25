@@ -14,6 +14,6 @@ export default function displayLayoutAdmin({
 }>) {
     return <div>
       {children}
-      <Toaster />
+      <Toaster richColors />
       </div>;
 }

@@ -222,8 +222,8 @@ function HotelBrandingOverlay({ duration = 10 }: { duration?: number }) {
           Bereket International Hotel
         </h1>
         <div className="space-y-2 text-lg text-white/80">
-          <p>📍 123 Luxury Street, Addis Ababa</p>
-          <p>📞 +251 123 456 789</p>
+          <p>📍 Hossana, Near to the Bus Station</p>
+          <p>📞 +251 465 552 066</p>
         </div>
         <div className="pt-4">
           <div className="w-64 h-2 bg-white/20 rounded-full overflow-hidden">
